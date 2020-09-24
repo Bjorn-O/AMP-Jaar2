@@ -9,22 +9,76 @@ canvas.height = height;
 
 // begin hier met jouw code voor deze opdracht
 
-// create namespace
-let img = new Image();
-img.src = "images/cog.png";
+let car, wheels, background;
 
-angle = 0.1;
+background = {};
+background.image = new Image();
+background.image.src = "images/background.jpg";
 
-img.addEventListener('load',()=>{
- setInterval(anime,10)
+
+car = {};
+car.image = new Image();
+car.image.src = "images/car_side.png";
+car.pos = 0;
+car.speed = 2;
+
+wheels = {};
+wheels.backWheel = new Image();
+wheels.backWheel.src = "images/wheel.png";
+
+wheels.frontWheel = new Image();
+wheels.frontWheel.src = "images/wheel.png";
+
+
+wheels.angle = 0;
+
+addEventListener('keydown',(e)=>{
+  //console.log(e.key);
+  switch(e.key){
+    case "ArrowRight":
+      car.speed += 0.5;
+      break;
+    case "ArrowLeft":
+    	car.speed -= 0.5;
+      break;
+    case "ArrowUp":
+      car.speed += 10;
+      break;
+    case "ArrowDown":
+      car.speed -= 10;
+      break;
+  }
+})
+
+car.image.addEventListener('load',()=>{
+  setInterval(anime,10);
 })
 
 function anime(){
   context.clearRect(0,0,width,height);
+  context.drawImage(background.image,0,0,width,height);
+  context.drawImage(car.image, car.pos,600);
   context.save();
-  context.translate(200,300);
-  context.rotate(angle);
-  context.drawImage(img,-150,-150,300,300)
+  context.translate(car.pos + 94,715);
+  context.rotate(wheels.angle);
+  context.drawImage(wheels.backWheel,-wheels.backWheel.width/2,-wheels.backWheel.height/2);
   context.restore();
-  angle -= 0.01;
+
+  context.save();
+  context.translate(car.pos + 385,715);
+  context.rotate(wheels.angle);
+  context.drawImage(wheels.frontWheel,-wheels.frontWheel.width/2,-wheels.frontWheel.height/2);
+  context.restore();
+
+  car.pos += car.speed;
+  if(car.pos > width){
+    car.pos = -car.image.width
+  }
+  if(car.pos < -car.image.width){
+    car.pos = width;
+  }
+
+  wheels.angle += car.speed/(0.5*wheels.backWheel.width);
+
+
 }

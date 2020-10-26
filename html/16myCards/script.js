@@ -9,17 +9,11 @@ canvas.height = height;
 
 // begin hier met jouw code voor deze opdracht
 
-let img,numberOnARow,numberOnAColomn,sx,sy,sw,sh,x,y,w,h,index,htmlstring;
+let img,numberOnARow,numberOnAColomn,sx,sy,sw,sh,x,y,w,h,index,htmlstring,cardDescription;
 
-var cardDescription = document.getElementById('animal-info');
 var btn = document.getElementById("btn");
 
-img = new Image();
-img.src = "images/deck.jpg"
-
-numberOnARow = 10;
-numberOnAColomn = 7;
-
+//index = 0;
 
 btn.addEventListener("click", function() {
   index = Math.floor(Math.random()*64);
@@ -29,31 +23,36 @@ btn.addEventListener("click", function() {
 
   ourReqeust.onload = function(){
     var ourData = JSON.parse(ourReqeust.responseText);
-    renderHTML(ourData);
+    cardDescription = "This is a " +ourData[index].CardType + " called: " + ourData[index].CardName + ".";
+    console.log(cardDescription);
   };
   console.log(index);
   ourReqeust.send();
 });
 
+img = new Image();
+img.src = "images/deck.jpg"
+
+numberOnARow = 10;
+numberOnAColomn = 7;
+
 img.addEventListener('load', ()=>{
   sw = img.width/numberOnARow;
   sh = img.height/numberOnAColomn;
+  context.font = "20px Arial";
+  // context.fillText(filledDescription)
   anime();
-  console.log(index);
+  console.log(index+1);
 })
 
-function renderHTML(data)
-{
-  var htmlString = "";
-
-  htmlString = "<p>" + "This is a " + data[index].CardType + " named: " + data[index].CardName + ".";
-
-  cardDescription.insertAdjacentHTML('beforeend', htmlString);
-}
-
+setInterval(anime,10);
 
 function anime(){
+  context.clearRect(0,0,width,height);
   sx=(index%numberOnARow)*sw;
   sy = Math.floor(index/numberOnARow)*sh;
-  context.drawImage(img,sx,sy,sw,sh,sw*2.5,0,sw,sh)
+  context.drawImage(img,sx,sy,sw,sh,0,75,sw,sh);
+  if (cardDescription) {
+    context.fillText(cardDescription,0,50);
+  }
 }

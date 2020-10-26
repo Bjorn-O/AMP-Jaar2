@@ -24,13 +24,14 @@ numberOnAColomn = 7;
 btn.addEventListener("click", function() {
   index = Math.floor(Math.random()*64);
   var ourReqeust = new XMLHttpRequest();
-  ourReqeust.open('GET', 'Cards.json');
+  ourReqeust.open('GET', 'https://raw.githubusercontent.com/Bjorn-O/AMP-Jaar2/master/html/16myCards/Cards.json');
   // Use POST if you want to send data
 
   ourReqeust.onload = function(){
     var ourData = JSON.parse(ourReqeust.responseText);
     renderHTML(ourData);
   };
+  console.log(index);
   ourReqeust.send();
 });
 

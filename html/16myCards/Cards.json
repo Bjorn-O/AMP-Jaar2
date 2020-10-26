@@ -1,0 +1,258 @@
+[
+  {
+    "CardType": "Effect-Monster Card",
+    "CardName": "Obelisk the Tormentor",
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"Blue-Eyes White Dragon"
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"Blue-Eyes White Dragon"
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"Blue-Eyes White Dragon"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Ancient Lamp"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Blade Knight"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Chaos Emperor Dragon - Envoy of the End"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Cyber Jar"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"D.D. Warrior"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Enraged Battle Ox"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Kaiser Sea Horse"
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"La Jinn the Mystical Genie of the Lamp"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Lord of D."
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Peten the Dark Clown"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Peten the Dark Clown"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Peten the Dark Clown"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Spear Dragon"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Thunder Dragon"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Thunder Dragon"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Twin-Headed Behemoth"
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"X-Head Cannon"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Y-Dragon Head"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Z-Metal Tank"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Zombyra the Dark"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Ancient Rules"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Cost Down"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Dark Hole"
+  }
+  {
+    "CardType":"Quick-Spell Card",
+    "CardName":"Enemy Controller"
+  }
+  {
+    "CardType":"Quick-Spell Card",
+    "CardName":"Future Fusion"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Gracefull Charity"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Heavy Storm"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Monster Reborn"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Polymarization"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Pot of Greed"
+  }
+  {
+    "CardType":"Quick-Spell Card",
+    "CardName":"Shrink"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Soul Exchange"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"The Flute of Summoning Dragon"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Bottomless Trap Hole"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Burst Breath"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Cloning"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Crush Card Virus"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Draining Shield"
+  }
+  {
+    "CardType":"Counter-Trap Card",
+    "CardName":"Negate Attack"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Ring of Destruction"
+  }
+  {
+    "CardType":"Continues-Trap Card",
+    "CardName":"Shadow Spell"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Torrential Tribute"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Trap Hole"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Change of Heart"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Kaiba Man"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Kaiba Man"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Kaiser Glider"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Lord of D."
+  }
+  {
+    "CardType":"Counter-Trap Card",
+    "CardName":"Magic Drain"
+  }
+  {
+    "CardType":"Counter-Trap Card",
+    "CardName":"Magic Jammer"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Magic Reflector"
+  }
+  {
+    "CardType":"Continues-Spell Card",
+    "CardName":"Premature Burial"
+  }
+  {
+    "CardType":"Quick-Spell Card",
+    "CardName":"Ring of Defense"
+  }
+  {
+    "CardType":"Spell Card",
+    "CardName":"Self Reproduction"
+  }
+  {
+    "CardType":"Effect-Monster Card",
+    "CardName":"Trap Master"
+  }
+  {
+    "CardType":"Trap Card",
+    "CardName":"Virus Cannon"
+  }
+  {
+    "CardType":"Normal-Monster Card",
+    "CardName":"Vorse Raider"
+  }
+  {
+    "CardType":"Fusion-Monster Card",
+    "CardName":"Blue-Eyes Ultimate Dragon"
+  }
+  {
+    "CardType":"Fusion-Monster Card",
+    "CardName":"Twin-Headed Thunder Dragon"
+  }
+  {
+    "CardType":"Fusion-Monster Card"
+    "CardName":"XYZ-Dragon Cannon"
+  }
+]

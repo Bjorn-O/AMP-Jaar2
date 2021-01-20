@@ -29,7 +29,7 @@ btn.addEventListener("click", function() {
       case "e":
       case "o":
       case "i":
-      case "e":
+      case "u":
         indArticle = "an";
         break;
       default:
